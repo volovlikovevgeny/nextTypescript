@@ -5,11 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "mock": "json-server -w db.json -p 4200 -d 2000"
   },
   "dependencies": {
     "next": "^10.0.0",
+    "nextjs-progressbar": "0.0.7",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
   }
 }
